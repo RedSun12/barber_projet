@@ -1,0 +1,33 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 40vw;
+
+  padding: 20px;
+  border: 1px solid #3f3e3e;
+  border-radius: 10px;
+}
+
+.head {
+  margin-bottom: 20px;
+}
+
+.inputs {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.inputs input {
+  margin-bottom: 20px
+}
+
+.btns {
+  /* margin-top: 20px; */
+}

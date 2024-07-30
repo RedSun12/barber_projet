@@ -1,0 +1,57 @@
+.container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .slide {
+    position: relative;
+  }
+  
+  .foto {
+    width: 100%;
+    height: auto;
+  }
+  
+  .deleteButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(255, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .deleteButton:hover {
+    background-color: rgba(255, 0, 0, 0.8);
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    z-index: 2;
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .arrow:hover {
+    background-color: rgba(0, 0, 0, 1);
+    transform: translateY(-50%) scale(1.1);
+  }
+  
+  .nextArrow {
+    right: -60px; /* Смещение стрелки вправо за пределы фотографии */
+  }
+  
+  .prevArrow {
+    left: -60px; /* Смещение стрелки влево за пределы фотографии */
+  }

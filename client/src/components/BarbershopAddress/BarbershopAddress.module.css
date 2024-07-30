@@ -1,0 +1,52 @@
+.contactInfo {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.heading {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.manager {
+  margin: 10px 0;
+  font-size: 18px;
+  color: #555;
+}
+
+.phone {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.phone:hover {
+  text-decoration: underline;
+}
+
+.image {
+  width: 50px; /* задать ширину изображения */
+  max-width: 50px; /* максимально допустимая ширина */
+  height: auto; /* автоматическая высота для сохранения пропорций */
+}
+
+.ss {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+
+.button {
+  background-color: #333;
+}
+
+.input {
+  color: black;
+}
